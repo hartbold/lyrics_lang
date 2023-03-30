@@ -20,6 +20,9 @@ const App = () => {
         }
       });
       const data = await response.json();
+
+
+      
       console.log(data.message.body.track_list); // do something with the response data
     } catch (error) {
       console.error(error);
